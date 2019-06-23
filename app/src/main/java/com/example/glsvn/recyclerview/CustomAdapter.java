@@ -19,7 +19,7 @@ import java.util.List;
 public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder> {
 
 
-    List<CustomClass> data;
+    ArrayList<CustomClass> data;
     Context context;
 
     public CustomAdapter(ArrayList<CustomClass> data, Context context) {
